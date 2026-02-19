@@ -24,7 +24,7 @@ This project implements a comprehensive time series forecasting solution for ret
 ```
 ├── data_analysis.ipynb                  # Data cleaning, EDA, and feature engineering notebook
 ├── Pyspark_datapreprocessing.ipynb      # PySpark-based data preprocessing notebook
-├── inventory_demamd_prediction.pdf      # PySpark Random Forest model - training & evaluation
+├── inventory_demamd_prediction.ipynb      # PySpark Random Forest model - training & evaluation
 ├── FEATURE_DICTIONARY.md               # Detailed feature descriptions & modeling guide
 ├── PROJECT_SUMMARY.md                  # Comprehensive project documentation
 └── README.md                           # Project overview (this file)
@@ -48,7 +48,7 @@ Open `data_analysis.ipynb` in Jupyter Notebook or JupyterLab to see:
 - Train-test split strategy
 
 ### 3. View the Model
-Open `inventory_demamd_prediction.pdf` to see:
+Open `inventory_demamd_prediction.ipynb` to see:
 - PySpark Random Forest model training on full 22M+ row dataset
 - Feature importance analysis
 - Model evaluation with RMSE metrics
@@ -249,7 +249,7 @@ Data Loading (GCS Parquet)
 |----------|-------------|
 | `data_analysis.ipynb` | Complete data cleaning, EDA, and feature engineering notebook |
 | `Pyspark_datapreprocessing.ipynb` | PySpark-based data preprocessing pipeline |
-| `inventory_demamd_prediction.pdf` | PySpark Random Forest model training, evaluation, and feature importance |
+| `inventory_demamd_prediction.ipynb` | PySpark Random Forest model training, evaluation, and feature importance |
 | `PROJECT_SUMMARY.md` | Complete project overview, methodology, and insights |
 | `FEATURE_DICTIONARY.md` | Detailed description of all 72 features with modeling recommendations |
 
