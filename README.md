@@ -1,6 +1,6 @@
 # Retail Inventory Management - Time Series Sales Forecasting
 
-**Project**: AMS598 Time Series Forecasting
+**Project**: Retail Inventory Management - Time Series Forecasting
 **Objective**: Predict grocery store sales for the next 14 days using historical data, promotions, and economic indicators
 **Dataset**: Favorita Grocery Sales (Ecuador, 2017)
 
@@ -272,48 +272,8 @@ Data Loading (GCS Parquet)
 - **PySpark scales well**: Full 22M row training completed successfully on GCP with 16 partitions
 - **Data leakage prevention**: Proper use of `shift(1)` is essential for valid evaluation
 
----
-
-## 🚀 Next Steps
-
-### Completed ✅
-- [x] Data cleaned and validated (23.8M rows)
-- [x] Time series features engineered (72 features)
-- [x] Train-test split created (time-based, last 14 days)
-- [x] Processed datasets saved to GCS
-- [x] Random Forest model trained with PySpark (RMSE: 13.6885)
-- [x] Feature importance analysis completed
-- [x] Predictions generated and evaluated
-
-### For Further Improvement:
-1. Hyperparameter tuning (increase `numTrees`, tune `maxDepth`, `minInstancesPerNode`)
-2. Try LightGBM or XGBoost for comparison
-3. Explore deep learning approaches (LSTM, Temporal Convolutional Networks)
-4. Per store-item model training using MPI4py parallelization
-5. Set up automated retraining pipeline
-6. Create monitoring dashboard for forecast accuracy
-
----
-
-## 📧 Contact
-
-**Project**: AMS598 Time Series Forecasting
-**Repository**: https://github.com/aswithabukka/retail_inventory_management
-
----
-
-## 📄 License
-
-This project is for academic purposes (AMS598 course project).
-
----
-
 ## 🙏 Acknowledgments
 
 - **Dataset**: Favorita Grocery Sales (Kaggle)
-- **Course**: AMS598 - Time Series Analysis
 - **Tools**: Python ecosystem (pandas, scikit-learn, matplotlib), Apache Spark, Google Cloud Platform
 
----
-
-**Last Updated**: November 29, 2025
